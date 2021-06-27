@@ -1,0 +1,167 @@
+
+header {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+#page-title {
+  font-family: Arial, sans-serif;
+  color: blueviolet
+}
+
+body {
+  margin-left: 200px;
+  margin-right: 200px;
+}
+
+p {
+  font-family: 'Stalinist One', cursive;
+}
+
+input {
+  margin: 5 5;
+}
+
+table {
+  font-family: arial, sans-serif;
+  border-collapse: collapse;
+  width: 100%;
+}
+
+td, th {
+  border: 1px solid #dddddd;
+  text-align: left;
+  padding: 8px;
+}
+
+tr:nth-child(even) {
+  background-color: #dddddd;
+}
+
+h1, h2, h3, h4, body {
+  font-family: Arial, sans-serif;
+}
+
+h1 {
+  font-size: 36px;
+  line-height: 40px;
+}
+
+h2 {
+  font-size: 30px;
+  line-height: 40px;
+}
+
+h3 {
+  font-size: 24px;
+  line-height: 40px;
+}
+
+h4 {
+  font-size: 18px;
+  line-height: 20px;
+}
+
+h5 {
+  font-size: 14px;
+  line-height: 20px;
+}
+
+h6 {
+  font-size: 12px;
+  line-height: 20px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  background-color:gray  ; 
+  width: 100%;
+  
+}
+
+.dropbtn {
+  font: 500 1.08em/28px Arial, sans-serif;
+  color: white;
+  padding: 15px;
+  font-size: 15px;
+  background-position: 100% 50%;
+  background-color:gray  ; 
+  border: none;
+  text-transform: uppercase;
+  }
+  
+  .dropdown {
+    position: relative;
+    display: inline-block;
+  }
+  
+  .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+    text-transform: uppercase;
+  }
+  
+  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+  }
+
+  
+  
+  
+  .dropdown-content a:hover {background-color: #ddd;}
+  
+  .dropdown:hover .dropdown-content {display: block;}
+  
+  .dropdown:hover .dropbtn {background-color: #3e8e41;}
+
+  .dropdown .dropbtn .active-button {background-color: rgb(48, 204, 28);}
+
+  a.active-page
+{
+  background-color: rgb(48, 204, 28);
+}
+
+  .error {color: #FF0000;}
+
+#logout{
+float: right;
+}
+
+.bad {
+border: black 1px solid ;
+padding: 10 15;
+background-color: #b73239;
+color:white;
+font-family:Helvetica;
+margin-bottom: 5px;
+width: 400px;
+}
+
+.good {
+  border: black 1px solid ;
+  padding: 10 15;
+  background-color: green;
+  color:white;
+  font-family:Helvetica;
+  margin-bottom: 5px;
+  width: 400px;
+  }
+
+
+  .close_error {
+    float:right;
+  }
+
+  
+  .close_error:hover {
+    text-decoration:underline;
+    cursor:pointer;
+  }

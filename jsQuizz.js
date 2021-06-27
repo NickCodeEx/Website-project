@@ -1,0 +1,1 @@
+alert("You need to login first before accessing to this page");
